@@ -1,3 +1,17 @@
+- [Automate Retrieval of Financial Statements](#automate-retrieval-of-financial-statements)
+  - [Set Up](#set-up)
+    - [Dependencies](#dependencies)
+      - [Install Python Dependencies](#install-python-dependencies)
+  - [How To Use](#how-to-use)
+    - [Arguments](#arguments)
+  - [Financial Statements of a Group of Stocks](#financial-statements-of-a-group-of-stocks)
+    - [Set Up File](#set-up-file)
+    - [Run Automation](#run-automation)
+  - [Financial Statements of One Stock](#financial-statements-of-one-stock)
+  - [Financial Statements of an Index](#financial-statements-of-an-index)
+  - [Excel Sheet](#excel-sheet)
+  - [Time Period](#time-period)
+
 # Automate Retrieval of Financial Statements
 ## Set Up
 ### Dependencies

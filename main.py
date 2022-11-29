@@ -9,10 +9,10 @@ import pandas as pd
 from optparse import OptionParser
 
 parser = OptionParser()
-parser.add_option('--s', '--stock', dest='stock', help='Singular stock to get fundamentals, type in the ticker (e.g. For apple type in: AAPL)', default='')
-parser.add_option('--i', '--index', dest='index', help='Get all stocks from list of indexes. Supported ones are SP500 and DOW', default='')
-parser.add_option('--f', '--stock_file', dest='stock_file', help='Destination to file of listed stocks', default='stocks.txt')
-parser.add_option('--e', '--excel_name', dest='excel_name', help='Specify the name of the excel file of all financial data', default='AutoFinancials.xlsx')
+parser.add_option('--s', '--stock', dest='stock', help='Singular stock to get fundamentals, type in the ticker. (e.g. For apple type in: AAPL)', default='')
+parser.add_option('--i', '--index', dest='index', help='Get all stocks from list of indexes. Supported ones are SP500 and Dow.', default='')
+parser.add_option('--f', '--stock_file', dest='stock_file', help='Destination to file of listed stocks.', default='stocks.txt')
+parser.add_option('--e', '--excel_name', dest='excel_name', help='Specify the name of the excel file of all financial data.', default='AutoFinancials.xlsx')
 parser.add_option('--t', '--time_period', dest='time_period', help='Time period for financials. Type in q for quarter. Type in a for annual.', default='q')
 
 (options, args) = parser.parse_args()
