@@ -79,7 +79,7 @@ python3 main.py --s AAPL
 ```
 
 ## Financial Statements of an Index
-NOTE: Only supported indexes are the S&P 500 and Dow.
+NOTE: Only supported indexes are the SP500 and Dow.
 Run the following command to get the financial statements of all stocks in a supported index:
 ```
 python3 main.py --s index_name_here
